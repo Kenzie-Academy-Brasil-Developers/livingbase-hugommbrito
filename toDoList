@@ -1,21 +1,21 @@
 ✅⬜
 ✅   1 - Clonar Repositórios
 ✅   2 - Fundir o Scaffold
-⬜   3 - Gerar Componentização
+✅   3 - Gerar Componentização
 ✅       I - Cores
 ✅       II - Botões
 ✅       III - Fonts
 ✅       IV - Espaçamentos
-⬜   4 - Gerar HTML
-⬜       I - Home
-⬜       II - Página de Post
-⬜   5 - Estilizar
-⬜       I - Home
-⬜           a. Scroll lateral nas categorias
-⬜           b. Ancora no CONSUMIR CONTEÚDOS
-⬜           c. Ancora no botão do Footer
-⬜       II - Página de Post
-⬜       IV - Checar se está FIEL ao figma
+✅   4 - Gerar HTML
+✅       I - Home
+✅       II - Página de Post
+✅   5 - Estilizar
+✅       I - Home
+✅           a. Scroll lateral nas categorias
+✅           b. Ancora no CONSUMIR CONTEÚDOS
+✅           c. Ancora no botão do Footer
+✅       II - Página de Post
+✅       IV - Checar se está FIEL ao figma
 ⬜   6 - Lógica da Home
 ⬜       I - Renderizar todas as categorias nos botões
 ⬜       II - Criar função para fazer scroll lateral nas categorias a partir do CLICK 
@@ -31,5 +31,3 @@
 ⬜           c. usar a função "click()" para fazer o clique automático
 ⬜
 ⬜
-⬜
-
