@@ -17,8 +17,8 @@
 ✅       II - Página de Post
 ✅       IV - Checar se está FIEL ao figma
 ⬜   6 - Lógica da Home
-⬜       I - Renderizar todas as categorias nos botões
-⬜       II - Criar função para fazer scroll lateral nas categorias a partir do CLICK 
+✅       I - Renderizar todas as categorias nos botões
+✅       II - Criar função para fazer scroll lateral nas categorias a partir do CLICK 
 ⬜       III - Criar função para que os posts sejam renderizados de acordo com a categoria selecionada.
 ⬜           a. Se já tiver alguma categoria armazenada no localStorage, filtrar por ela
 ⬜       IV - Criar função para armazenar ID do post criado no localStorage
