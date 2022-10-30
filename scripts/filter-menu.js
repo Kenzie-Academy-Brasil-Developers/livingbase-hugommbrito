@@ -4,8 +4,21 @@ function renderFilters() {
     let filterMenu = document.querySelector('#filterMenu')
     categories.forEach(category => {
         filterMenu.insertAdjacentHTML('beforeend', `
-            <button class="btn-grey">${category}</button>
+            <button class="btn-grey filter-btn" id="${category}">${category}</button>
         `)
+
+        document.querySelector(`#${category}`).addEventListener('click', () => {
+            localStorage.setItem('filter', category)
+            window.location.reload()
+        })
+    })
+
+    let filterBtns = document.querySelectorAll('.filter-btn')
+    let selectedFilter = localStorage.getItem('filter')
+    filterBtns.forEach(btn => {
+        if (btn.id == selectedFilter){
+            btn.classList.add('selected')
+        }
     })
 }
 
