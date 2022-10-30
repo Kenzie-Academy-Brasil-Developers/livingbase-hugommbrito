@@ -22,7 +22,7 @@ async function renderPosts(pageNum) {
                     <img src="${post.image}" alt="">
                     <h3 class="font-20-600">${post.title}</h3>
                     <p class="font-16-400">${post.description}</p>
-                    <p class="font-16-600 color-primary" id="pst-${post.id}">Acessar conteúdo</p>
+                    <p class="font-16-600 color-primary openPost" id="${post.id}">Acessar conteúdo</p>
                 </div>
             `)
         } else if (selectedFilter == post.category) {
@@ -31,11 +31,12 @@ async function renderPosts(pageNum) {
                     <img src="${post.image}" alt="">
                     <h3 class="font-20-600">${post.title}</h3>
                     <p class="font-16-400">${post.description}</p>
-                    <p class="font-16-600 color-primary" id="pst-${post.id}">Acessar conteúdo</p>
+                    <p class="font-16-600 color-primary openPost" id="${post.id}">Acessar conteúdo</p>
                 </div>
             `)
         }
     })
+    goToPostPage()
     page++
 }
 // renderPosts(page)
@@ -51,4 +52,14 @@ const observer = new IntersectionObserver((entries) => {
 })
 observer.observe(observedDiv)
 
-// FUNÇÃO PARA ADICIONAR FILTRO AO LOCALSTORAGE
+// FUNÇÃO PARA ADICIONAR ABRIR POST
+async function goToPostPage() {
+    let openPostBtns = document.querySelectorAll('.openPost')
+    openPostBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            let btnID = e.target.id
+            localStorage.setItem('selectedPost', btnID)
+            window.location.replace('./pages/post/index.html')
+        })
+    })
+}

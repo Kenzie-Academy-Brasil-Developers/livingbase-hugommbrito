@@ -98,3 +98,7 @@
     background-color: var(--color-grey-5);
     border: 2px solid var(--color-grey-5);
 }
+
+.openPost{
+    cursor: pointer;
+}

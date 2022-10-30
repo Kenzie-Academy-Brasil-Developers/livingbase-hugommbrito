@@ -9,7 +9,7 @@ function renderFilters() {
 
         document.querySelector(`#${category}`).addEventListener('click', () => {
             localStorage.setItem('filter', category)
-            window.location.reload()
+            window.location.replace('../../index.html')
         })
     })
 
