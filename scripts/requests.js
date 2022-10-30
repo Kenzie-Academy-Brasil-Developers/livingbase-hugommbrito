@@ -5,4 +5,13 @@ async function getPostByPage(pageNum) {
     return response
 }
 
-export { getPostByPage }
+
+async function getPostByID(id) {
+    let responseJSON = await fetch(`https://m2-api-living.herokuapp.com/news/${id}`)
+    let response = await responseJSON.json()
+
+    return response
+}
+
+
+export { getPostByPage, getPostByID }

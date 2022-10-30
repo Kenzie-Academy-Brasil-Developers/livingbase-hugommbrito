@@ -23,12 +23,20 @@ section > p{
     margin-bottom: var(--gap-3);
 }
 
+
+
+
+
+#filterContainer{
+    position: relative;
+
+}
 #filterMenu {
     overflow-x: hidden;   
 
-    position: relative;
 
-    margin: 70px auto;
+    margin: 30px auto;
+    scroll-behavior: smooth
 }
 
 #next{
@@ -56,6 +64,11 @@ section > p{
     height: 100%;
     width: 5%;
 }
+
+
+
+
+
 
 footer{
     padding: 5.5rem 0;
