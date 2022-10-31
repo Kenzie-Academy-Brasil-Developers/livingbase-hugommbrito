@@ -10,10 +10,42 @@
     <link rel="stylesheet" href="../../styles/fonts.css">
     <link rel="stylesheet" href="../../styles/margins.css">
     <link rel="stylesheet" href="../../styles/position.css">
+
+
+    <link rel="stylesheet" href="./index.css">
     <title>Living</title>
 </head>
 <body>
-    <main></main>
-    <script src="./index.js"></script>
+    <header class="container flex spc-btwn mt-2 mb-2">
+        <div class="logo flex gap-5">
+            <div class="logoSquare"></div>
+            <p class="logoText font-28-700">Living</p>
+        </div>
+        <a href="../../index.html"><button class="btn-grey">Home</button></a>
+    </header>
+    <main>
+        <div class="container" id="filterContainer">
+            <div class="div-next">
+                <button class="btn-icon" id="next"></button>
+            </div>
+            <div class="div-previus">
+                <button class="btn-icon" id="previus"></button>
+            </div>
+            <div class="container flex gap-1" id="filterMenu">
+
+            </div>
+        </div>
+    </main>
+    <footer class="bgc-grey-1">
+        <div class="container flex gap-1 align-center spc-btwn">
+            <div class="logo flex gap-5">
+                <div class="logoSquare"></div>
+                <p class="logoText font-28-700 color-grey-7">Living</p>
+            </div> 
+            <p class="font-16-400 color-grey-7">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+            <a href="#top"><button class="btn-greyDark" id="footerBtn">Voltar para o topo</button></a>
+        </div>
+    </footer>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>

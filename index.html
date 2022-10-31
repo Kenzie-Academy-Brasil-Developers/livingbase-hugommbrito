@@ -10,12 +10,50 @@
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/margins.css">
     <link rel="stylesheet" href="./styles/position.css">
+    
+    <link rel="stylesheet" href="./pages/home/index.css">
     <title>Living</title>
 </head>
 <body>
     <main>
-        <button class="btn-icon"></button>
+        <section class="container flex spc-btwn" id="topPart">
+            <div class=" flex-col spc-btwn gap-5" id="topPartInfo">
+                <div class="logo flex gap-5">
+                    <div class="logoSquare"></div>
+                    <p class="logoText font-28-700">Living</p>
+                </div>
+                <h1 class="font-40-600">Cuidando de cada <span class="color-primary">detalhe</span> da sua casa</h1>
+                <p class="font-16-400">Trazendo uma nova e incrível experiência para você e para seu lar</p>
+                <a href="#posts" class="font-16-600">Consumir Conteúdos</a>
+            </div>
+            <img src="./assets/img/Rectangle 2.png" alt="">
+        </section>
+
+        <div class="container" id="filterContainer">
+            <div class="div-next">
+                <button class="btn-icon" id="next"></button>
+            </div>
+            <div class="div-previus">
+                <button class="btn-icon" id="previus"></button>
+            </div>
+            <div class="container flex gap-1" id="filterMenu">
+
+            </div>
+        </div>
+        <section class="container flex spc-btwn gap-1 wrap" id="posts">
+        </section>
+        <div id="observed"></div>
     </main>
-    <script src="./pages/home/index.js"></script>
+    <footer class="bgc-grey-1">
+        <div class="container flex gap-1 align-center spc-btwn">
+            <div class="logo flex gap-5">
+                <div class="logoSquare"></div>
+                <p class="logoText font-28-700 color-grey-7">Living</p>
+            </div> 
+            <p class="font-16-400 color-grey-7">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+            <a href="#top"><button class="btn-greyDark" id="footerBtn">Voltar para o topo</button></a>
+        </div>
+    </footer>
+    <script type="module" src="./pages/home/index.js"></script>
 </body>
 </html>

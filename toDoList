@@ -1,28 +1,28 @@
 ✅⬜
 ✅   1 - Clonar Repositórios
 ✅   2 - Fundir o Scaffold
-⬜   3 - Gerar Componentização
+✅   3 - Gerar Componentização
 ✅       I - Cores
 ✅       II - Botões
 ✅       III - Fonts
 ✅       IV - Espaçamentos
-⬜   4 - Gerar HTML
-⬜       I - Home
-⬜       II - Página de Post
-⬜   5 - Estilizar
-⬜       I - Home
-⬜           a. Scroll lateral nas categorias
-⬜           b. Ancora no CONSUMIR CONTEÚDOS
-⬜           c. Ancora no botão do Footer
-⬜       II - Página de Post
-⬜       IV - Checar se está FIEL ao figma
+✅   4 - Gerar HTML
+✅       I - Home
+✅       II - Página de Post
+✅   5 - Estilizar
+✅       I - Home
+✅           a. Scroll lateral nas categorias
+✅           b. Ancora no CONSUMIR CONTEÚDOS
+✅           c. Ancora no botão do Footer
+✅       II - Página de Post
+✅       IV - Checar se está FIEL ao figma
 ⬜   6 - Lógica da Home
-⬜       I - Renderizar todas as categorias nos botões
-⬜       II - Criar função para fazer scroll lateral nas categorias a partir do CLICK 
-⬜       III - Criar função para que os posts sejam renderizados de acordo com a categoria selecionada.
-⬜           a. Se já tiver alguma categoria armazenada no localStorage, filtrar por ela
-⬜       IV - Criar função para armazenar ID do post criado no localStorage
-⬜       V - Criar função para renderizar posts de acordo com o scroll
+✅       I - Renderizar todas as categorias nos botões
+✅       II - Criar função para fazer scroll lateral nas categorias a partir do CLICK 
+✅       III - Criar função para que os posts sejam renderizados de acordo com a categoria selecionada.
+✅           a. Se já tiver alguma categoria armazenada no localStorage, filtrar por ela
+⬜       IV - Criar função para armazenar ID do post clicado no localStorage
+✅       V - Criar função para renderizar posts de acordo com o scroll
 ⬜   7 - Lógica da Pagina do Post
 ⬜       I - Função que recebe o ID do post pelo localStorage, busca na API e renderiza na tela
 ⬜       II - Função que ao clicar em uma categoria no final do post, retorna para a Home
@@ -31,5 +31,3 @@
 ⬜           c. usar a função "click()" para fazer o clique automático
 ⬜
 ⬜
-⬜
-

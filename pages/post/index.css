@@ -1,1 +1,79 @@
-/* Desenvolva seu estilo aqui */
+.logo > div{
+    width: 1.8125rem;
+    height: 1.375rem;
+    background-color: var(--color-primary);
+    border-radius: 0 6px 0 6px;
+    margin-bottom: 1.5rem;
+}
+
+#titleSection{
+    padding: 5rem 0;
+}
+
+h1{
+    line-height: 120%;
+}
+
+section > img{
+    width: 100%;
+    margin: var(--size-1) 0;
+}
+
+section > p{
+    margin-bottom: var(--gap-3);
+}
+
+
+
+
+
+#filterContainer{
+    position: relative;
+
+}
+#filterMenu {
+    overflow-x: hidden;   
+
+
+    margin: 30px auto;
+    scroll-behavior: smooth
+}
+
+#next{
+    position: absolute;
+    right: 2px;
+}
+
+#previus{
+    position: absolute;
+    left: 10px;
+    transform: rotatey(180deg);
+}
+
+.div-next{
+    position: absolute;
+    right: 0;
+    background: linear-gradient(90deg, #ffffff00 0%, #FFFFFF 10%, #FFFFFF 100%);
+    height: 100%;
+    width: 5%;
+}
+.div-previus{
+    position: absolute;
+    left: 0;
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 90%, #FFFFFF00 100%);
+    height: 100%;
+    width: 5%;
+}
+
+
+
+
+
+
+footer{
+    padding: 5.5rem 0;
+}
+
+footer > div > p {
+    max-width: 45%;
+}

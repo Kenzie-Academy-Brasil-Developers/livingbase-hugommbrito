@@ -48,6 +48,7 @@
 .btn-grey:focus, .selected{
     background-color: var(--color-primary);
     border: 2px solid var(--color-primary);
+    color: var(--color-grey-7);
 }
 
 .btn-greyDark{
@@ -96,4 +97,8 @@
 .btn-icon:hover{
     background-color: var(--color-grey-5);
     border: 2px solid var(--color-grey-5);
+}
+
+.openPost{
+    cursor: pointer;
 }

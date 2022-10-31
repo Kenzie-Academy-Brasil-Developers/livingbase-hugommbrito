@@ -63,7 +63,8 @@ ul {
 }
 
 .container {
-  max-width: var(--container-1);
+  width: var(--container-1);
+  max-width: 85%;
   margin: 0 auto;
 }
 

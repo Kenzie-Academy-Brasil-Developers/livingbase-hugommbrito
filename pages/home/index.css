@@ -1,1 +1,91 @@
-/* Desenvolva seu estilo aqui */
+#topPart{
+    margin: 4.6875rem auto;
+    /* border: 2px solid green; */
+
+    align-items: center;
+}
+
+#topPartInfo {
+    width: 26.875rem;
+    height: 15rem;
+    /* border: 2px solid pink; */
+    
+
+}
+.logo > div{
+    width: 1.8125rem;
+    height: 1.375rem;
+    background-color: var(--color-primary);
+    border-radius: 0 6px 0 6px;
+    margin-bottom: 1.5rem;
+}
+
+#topPartInfo > h1{
+    line-height: 150%;
+}
+
+#topPart > img {
+    width: 35.625rem;
+}
+
+#filterContainer{
+    position: relative;
+
+}
+#filterMenu {
+    overflow-x: hidden;   
+
+
+    margin: 30px auto;
+    scroll-behavior: smooth
+}
+
+#next{
+    position: absolute;
+    right: 2px;
+}
+
+#previus{
+    position: absolute;
+    left: 10px;
+    transform: rotatey(180deg);
+}
+
+.div-next{
+    position: absolute;
+    right: 0;
+    background: linear-gradient(90deg, #ffffff00 0%, #FFFFFF 10%, #FFFFFF 100%);
+    height: 100%;
+    width: 5%;
+}
+.div-previus{
+    position: absolute;
+    left: 0;
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 90%, #FFFFFF00 100%);
+    height: 100%;
+    width: 5%;
+}
+
+#posts{
+    margin: 5rem auto;
+}
+
+.card{
+    /* border: 2px solid green; */
+
+    width: 48%;
+}
+
+.card > img{
+    width: 100%;
+    height: 11.25rem;
+    object-fit: cover;
+}
+
+footer{
+    padding: 5.5rem 0;
+}
+
+footer > div > p {
+    max-width: 45%;
+}
